@@ -6,3 +6,4 @@ Exploring advanced CSS and SASS
 - Animations
 - BEM methodology
 - NPM Node-sass script to compile sass 
+- 7-1 CSS architecture setup
