@@ -1,8 +1,21 @@
 // Clear floats
-@mixin clearfix{
-  &::after{
-    content: '';
+@mixin clearfix {
+  &::after {
+    content: "";
     display: table;
     clear: both;
   }
+}
+
+// Text gradient
+@mixin text-gradient($color-1, $color-2) {
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    rgba($color-1, 0.8),
+    rgba($color-2, 0.8)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
