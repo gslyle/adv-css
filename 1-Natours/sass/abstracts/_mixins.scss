@@ -7,7 +7,7 @@
   }
 }
 
-// Text gradient
+// Text gradient: takes 2 colors -> left to right//
 @mixin text-gradient($color-1, $color-2) {
   display: inline-block;
   background-image: linear-gradient(
@@ -18,4 +18,37 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+// Card background gradient: takes 2 colors -> top left to bottom right
+@mixin card-gradient($top-left, $bottom-right) {
+  background-image: linear-gradient(
+    to right bottom, 
+    $top-left, 
+    $bottom-right
+  );
+}
+
+// Card picture: takes 2 colors -> top left to bottom right. And takes an img string eg. 'myPic.jpg' 
+@mixin card-picture($top-left, $bottom-right, $image-name) {
+  background-image: linear-gradient(
+    to right bottom, 
+    $top-left, 
+    $bottom-right
+  ), 
+  url(../img/#{$image-name});
+}
+
+// Card heading with opacity: take 2 colors -> top left to bottom right
+@mixin card-heading-opacity($top-left, $bottom-right) {
+  background-image: linear-gradient(
+        to right bottom, 
+        rgba($top-left, .85), 
+        rgba($bottom-right, .85) 
+      );
+}
+
+// Box shadow
+@mixin box-shadow(){
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 }
