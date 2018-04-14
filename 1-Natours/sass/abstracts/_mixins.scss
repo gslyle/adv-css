@@ -52,3 +52,13 @@
 @mixin box-shadow(){
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 }
+
+// Rounded buttons: takes background color and text color
+@mixin rounded-button($background-color, $text-color){
+  background-color: $background-color;
+  color: $text-color;
+
+  &::after {
+    background-color: $background-color;
+  }
+}
