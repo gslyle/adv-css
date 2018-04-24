@@ -7,3 +7,7 @@ Exploring advanced CSS and SASS
 - BEM methodology
 - NPM Node-sass script to compile sass 
 - 7-1 CSS architecture setup
+- Mixins
+- Transforms
+- Pseudo-classes
+- Gradients
