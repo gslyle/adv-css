@@ -11,3 +11,7 @@ Exploring advanced CSS and SASS
 - Transforms
 - Pseudo-classes
 - Gradients
+
+2-Trillo
+- Flexbox
+- CSS Custom Properties
