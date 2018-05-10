@@ -46,11 +46,130 @@
                 </nav>
             </header>
             <div class="content">
+                <!-- Site Navigation -->
                 <nav class="sidebar">
-                    Navigation
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use href="img/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Car Rental</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use href="img/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="legal">
+                        Design &copy; Jonas Schmedtmann 
+                    </div>
                 </nav>
                 <main class="hotel-view">
-                    Hotel View
+                    <!-- Gallery -->
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                        </figure>
+                    </div>
+                    <!-- Overview -->
+                    <div class="overview">
+                        <h1 class="overview__heading">Hotel Las Palmas</h1>
+                        <!-- stars -->
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use href="img/sprite.svg#icon-star"></use>
+                            </svg> 
+                            <svg class="overview__icon-star">
+                                <use href="img/sprite.svg#icon-star"></use>
+                            </svg> 
+                            <svg class="overview__icon-star">
+                                <use href="img/sprite.svg#icon-star"></use>
+                            </svg> 
+                            <svg class="overview__icon-star">
+                                <use href="img/sprite.svg#icon-star"></use>
+                            </svg> 
+                            <svg class="overview__icon-star">
+                                <use href="img/sprite.svg#icon-star"></use>
+                            </svg> 
+                        </div>
+                        <!-- Location & rating -->
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use href="img/sprite.svg#icon-location-pin"></use>
+                            </svg> 
+                            <button class="button-inline">Albuifera, Portugal</button>
+                        </div>
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.6</div>
+                            <div class="overview__rating-count">346 votes</div>
+                        </div>
+                    </div>
+                    <!-- Page detail -->
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ad, exercitationem rerum quasi nulla ut animi iste, ab aliquam, quod reprehenderit ipsa ducimus voluptas voluptatibus magnam quis aperiam! Molestias, consequatur. 
+                            </p>
+                            <p class="paragraph">
+                                Animi iste, ab aliquam, quod reprehenderit ipsa ducimus voluptas voluptatibus magnam quis aperiam!
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">Close to the beach</li>
+                                <li class="list__item">Breakfast included</li>
+                                <li class="list__item">Airport Shuttle</li>
+                                <li class="list__item">Free wifi</li>
+                                <li class="list__item">Air conditioning and heating</li>
+                                <li class="list__item">Pets allowed</li>
+                                <li class="list__item">We speak all languages</li>
+                                <li class="list__item">Perfect for families</li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="paragraph">
+                                    James and 3 other friends recommend this hotel.
+                                </p>
+                                <div class="recommend__friends">
+                                    <img src="img/user-3.jpg" alt="Friends" class="recommed__photo">
+                                    <img src="img/user-4.jpg" alt="Friends" class="recommed__photo">
+                                    <img src="img/user-5.jpg" alt="Friends" class="recommed__photo">
+                                    <img src="img/user-6.jpg" alt="Friends" class="recommed__photo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-reviews">
+                            <blockquote class="review__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, tempore?
+                            </blockquote>
+                            figcaption
+                        </div>
+                    </div>
                 </main>
             </div>
         </div>

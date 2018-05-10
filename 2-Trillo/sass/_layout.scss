@@ -6,26 +6,64 @@
   min-height: 50rem;
 }
 
+////////////////////////////////////
+/// HEADER
+
 .header {
   font-size: 1.4rem;
   height: 7rem;
   background-color: var(--color-white);
-  border-bottom: 2px solid var(--color-grey-light-1);
+  border-bottom: var(--line);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+////////////////////////////////////
+/// CONTENT
+
 .content {
   display: flex;
 }
 
+////////////////////////////////////
+/// SIDEBAR
+
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+////////////////////////////////////
+/// HOTEL VIEW
 
 .hotel-view {
   background-color: var(--color-white); 
+  flex: 1;
+}
+
+////////////////////////////////////
+/// PAGE DETAILS
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
+}
+
+.description {
+  font-size: 1.4rem;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+}
+
+.user-reviews {
   flex: 1;
 }
